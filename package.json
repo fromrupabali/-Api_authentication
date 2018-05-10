@@ -1,0 +1,26 @@
+{
+  "name": "apiauthentication",
+  "version": "1.0.0",
+  "description": "API authentication project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Abdul Momin",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.2",
+    "joi": "^13.3.0",
+    "jsonwebtoken": "^8.2.1",
+    "mongoose": "^5.0.17",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "server": "^1.0.18"
+  }
+}
